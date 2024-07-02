@@ -5,7 +5,5 @@
     "build": "echo \"Welcome to the Turboverse.\" > output-file.txt && cat output-file.txt",
     "type-check": "echo \"Types checked!\""
   },
-  "dependencies": {
-    "tooling-config": "*"
-  }
+  "dependencies": {}
 }

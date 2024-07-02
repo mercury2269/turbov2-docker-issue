@@ -1,11 +1,12 @@
 {
   "name": "pkg-a",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
   "scripts": {
+    "test": "docker compose up",
     "build": "echo \"Building at the speed of Turbo.\" > output-file.txt && cat output-file.txt",
     "lint": "echo \"Linted!\"",
     "type-check": "echo \"Types checked!\""
   },
-  "dependencies": {
-    "tooling-config": "*"
-  }
+  "dependencies": {}
 }
